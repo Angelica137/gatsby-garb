@@ -18,6 +18,7 @@ const GET_SITEMETADATA = graphql`
       siteMetadata {
         title
         author
+        createdAt
       }
     }
   }
